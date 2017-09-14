@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+*{margin:0;padding:0;}
+
+/*清浮动*/
+.clearfix{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+
+
+/*headerBox 头部条的小部分*/
+.headerBox{background-color:#F5F5F5; height: 60px; }
+.muenu{color: red;}
+.logo{padding-top: 19px;padding-left: 20px;padding-bottom: 10px;width: 320px;}
+.searchBox{width: 320px; padding-top: 10px;}
+.serarch_input{
+	width: 216px; 
+	height: 36px; 
+	line-height: 36px;
+	border:2px solid #9F9F9F; 
+	border-right:none;
+	padding: 0px 6px; 
+	font-size: 14px;
+
+	}
+.search_btn{
+	width: 90px; 
+	height: 40px; 
+	background: url(images/search.jpg);
+	left top no-repat;}
+
+
+
+
+
+/*通用样式*/
+.comWidth{width: 970px; margin: 0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+
+		</style>
+	</head>
+	<body>
+		<div class="headerBox">
+			<div class="header" comWidth>
+				<div class="logo fl">
+					<a href="#"><img src="images/logo.png" alt="logo"/></a>
+				</div>
+				<!--logo 网站标志-->
+				<div class="searchBox fl">
+					<input type="text" class="serarch_input fl" />
+					<input type="submit" value="" class="search_btn fl" />
+
+				</div>
+				<!--searchBox 搜索框-->	
+				<ul class="menu fr" >
+					<li>
+						登录|注册
+					</li>
+					
+					<li>
+						观看记录
+					</li>
+					<li>
+						上传
+					</li>					
+				</ul>
+			</div>
+			<!--header 头部条的内容-->
+		</div>
+		<!--headerBox 头部条-->
+	</body>
+</html>

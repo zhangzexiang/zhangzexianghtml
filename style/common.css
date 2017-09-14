@@ -1,0 +1,99 @@
+/*重置清零*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,
+table,td,img,div,dl,dt,dd,input{margin:0;padding:0;border:0;}
+body{font-size:12px;}
+img{border:none;}
+ul,ol{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+
+/*清浮动*/
+.clearfix{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+
+
+/*通用样式*/
+.comWidth{width: 970px; margin: 0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+
+
+
+/*headerBox 头部条的小部分*/
+.headerBox{
+	background-color:#F5F5F5; 
+	height: 60px; 
+	}
+	
+.muenu{
+	color: red;
+	}
+	
+.logo{
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	width: 320px;
+	}
+	
+.searchBox{
+	width: 320px; 
+	padding-top: 10px;
+	position: relative;  /*相对定位*/
+	}
+	
+.serarch_input{
+	width: 216px; 
+	height: 36px; 
+	line-height: 36px;
+	border:1px solid #9F9F9F; 
+	border-right:none;
+	padding: 0px 6px; 
+	font-size: 14px;
+	}
+	
+.search_btn{
+	width: 90px; 
+	height: 40px; 
+	background: url(../images/search.jpg);
+	left top no-repat;
+	}
+
+/*搜索交互*/
+.serach_hover{
+	border-color: #3EABFF;  /*后面要加到js里面*/
+}
+.search_show{
+	display: none;  /*隐藏*/
+	width: 311px;
+	padding: 2px 3px;
+	border: 1px solid #3EABFF;
+	position: absolute;  /*绝对定位*/
+	left: 0;
+	top: 47px;
+	background-color: #FFFFFF;
+}
+.search_list li:hover{background-color: #F6F7FB;}
+.search_list li span{
+	float: left;
+	color: #FF8200;
+	font-size: 15px;
+	padding-right: 2px;
+}
+.search_list li a{
+	float:none;
+	color: #000000;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
